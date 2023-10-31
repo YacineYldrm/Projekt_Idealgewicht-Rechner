@@ -5,7 +5,7 @@ Mithilfe dieser webbasierten Applikation können Anwender:innen intuitiv ihr ide
 # Tech Stack
 
 - HTML5
-- CSS3
+- SCSS
 - JavaScript
 
 # Demo-Link
