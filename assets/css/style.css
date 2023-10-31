@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.rechner_wrapper {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 20vh;
+  background: url(./../img/dose-juice-sTPy-oeA3h0-unsplash.jpg) center/cover no-repeat;
+  color: white;
+  font-family: sans-serif;
+}
+.rechner_wrapper h1 {
+  font-size: 32px;
+  font-weight: 100;
+  margin-bottom: 12px;
+}
+.rechner_wrapper form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 450px;
+  height: 480px;
+  padding: 18px;
+  margin-inline: auto;
+  border-radius: 16px;
+  background: rgba(0, 0, 0, 0.519);
+  box-shadow: 0px 0px 20px 0px black;
+}
+.rechner_wrapper form > input {
+  height: 40px;
+  border-radius: 4px;
+  background: rgba(212, 253, 212, 0.3294117647);
+  color: white;
+  padding: 8px;
+  font-size: 0.875rem;
+}
+.rechner_wrapper form > input::placeholder {
+  color: rgb(255, 255, 255);
+}
+.rechner_wrapper form > input:focus {
+  outline: 2px solid rgba(92, 255, 92, 0.3294117647);
+}
+.rechner_wrapper form > input:nth-of-type(3) {
+  margin-bottom: 24px;
+  outline: none;
+  background-color: rgba(39, 251, 39, 0.3294117647);
+  font-weight: 600;
+  font-size: 18px;
+}
+.rechner_wrapper form div > input {
+  margin-top: 12px;
+  accent-color: rgb(0, 251, 0);
+}
+.rechner_wrapper form div > label {
+  font-weight: 100;
+}
+.rechner_wrapper form p {
+  font-size: 24px;
+  font-weight: 100;
+}
+
+/*# sourceMappingURL=style.css.map */
